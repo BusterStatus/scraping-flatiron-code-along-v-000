@@ -22,6 +22,7 @@ class Scraper
     doc.css(".post")
     doc.css(".post").first.css("h2").text
     doc.css(".post").first.css(".date").text
+    doc.css(".post").first.css("p").text
   end
   
   def get_courses
